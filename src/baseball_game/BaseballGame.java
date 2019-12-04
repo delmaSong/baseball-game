@@ -2,7 +2,7 @@ package baseball_game;
 
 import java.util.Random;
 
-public class Step1 {
+public class BaseballGame {
 	Random ran = new Random();
 
 	int strikeCnt = 0;
@@ -11,7 +11,7 @@ public class Step1 {
 	int antaCnt = 0;
 	
 	public static void main(String[] args) {
-		Step1 s1 = new Step1();
+		BaseballGame s1 = new BaseballGame();
 		s1.playGame();
 	}
 
