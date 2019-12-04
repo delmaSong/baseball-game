@@ -139,6 +139,8 @@ public class TeamCompetition {
 		}
 		if(tp.out == 3) {
 			tp.out = 0;
+			tp.anta = 0;
+			antaFlag = false;
 			turnSwitch();
 		}
 		System.out.println(tp.strike+"S "+tp.ball+"B "+tp.out+"O \n");
@@ -175,7 +177,7 @@ public class TeamCompetition {
 			}
 		}
 	}
-	public void turnSwitch() {	//회말일때 넘어가면 다음 이닝으로 
+	public void turnSwitch() {
 		if(inning.equals("회초")) {
 			inning = "회말";
 			nowTeam = teamInfo.get(1).teamName;
