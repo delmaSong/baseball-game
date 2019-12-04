@@ -1,6 +1,7 @@
 # baseball-game
 
 ## 온라인 테스트 단계별 구현사항
+[소스 위치 바로가기](https://github.com/delmaSong/baseball-game/tree/master/src/baseball_game)
 ### 1단계
 
 > BaseballGame.java
