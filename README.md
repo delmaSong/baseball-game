@@ -35,6 +35,18 @@
 
 > TeamCompetition.java, TeamData.java, TeamPoint.java
 
+#### TeamData.java
+
+- 각 팀 데이터 객체.
+- 팀의 이름을 담을 문자열 변수와 멤버들의 정보를 담을 어레이 리스트 선언
+
+#### TeamPoint.java
+
+- 각 팀의 점수 객체. 
+- 안타, 스트라이크, 볼, 아웃, 포인트를 기록할 변수와 점수 변동을 입력하는 updatePoint()
+
+#### TeamCompetition.java
+
 - __selectMenu()__
   - 1,2,3의 선택지 출력 후 사용자의 입력 값 받음
   - 1 입력시 데이터를 입력할 수 있는 inputTeamInfo() 호출
@@ -89,5 +101,7 @@
   - endFlag를 true로 변경
   - 시합한 두 팀의 포인트를 출력 후 게임을 종료
   
+- __printScoreboard()__
+  - 점수판 출력
   
 
