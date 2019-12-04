@@ -1,7 +1,6 @@
 # baseball-game
 
 ## 온라인 테스트 단계별 구현사항
-
 ### 1단계
 
 > BaseballGame.java
